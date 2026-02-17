@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Real-Time Speech Denoising under Non-Stationary Noise (UBKE) — Reproducibility Package"
+message: "If you use this software, please cite the associated accepted manuscript."
+type: software
+authors:
+  - family-names: Mensah
+    given-names: Sam
+repository-code: "https://github.com/SamMensLab/real-time-speech-denoising-nonstationary-noise"
+license: MIT
+date-released: "2026-02-17"

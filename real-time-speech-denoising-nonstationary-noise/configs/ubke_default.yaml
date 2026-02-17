@@ -1,0 +1,22 @@
+audio:
+  sample_rate: 16000
+  n_fft: 512
+  win_length: 512          # 32 ms at 16 kHz
+  hop_length: 256          # 50% overlap
+  window: hann
+
+ubke:
+  ar_order_p: 2
+  epsilon: 1.0e-6
+  noise_update:
+    alpha: 0.98            # smoothing for noise PSD update (0.98 old / 0.02 new)
+    init_frames: 5         # initial frames to estimate noise PSD
+
+kalman:
+  process_var: 1.0e-3
+  meas_var: 1.0e-2
+
+runtime:
+  measure_rtf: true
+  warmup_frames: 10
+  realtime_target_rtf: 1.0

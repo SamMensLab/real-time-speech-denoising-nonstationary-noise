@@ -1,0 +1,9 @@
+metrics:
+  compute_pesq: true
+  pesq_mode: wb
+  compute_stoi: true
+  compute_lsd: true
+  compute_rtf: true
+
+audio:
+  sample_rate: 16000
